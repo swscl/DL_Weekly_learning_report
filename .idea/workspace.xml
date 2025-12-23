@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="尝试从pycharm中提交到main中">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="23课LNet在两个数据集上的训练，note是在mnist数据上的">
+      <change afterPath="$PROJECT_DIR$/24-alexnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dl_test_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dl_test_code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +20,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -34,23 +45,32 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.01.executor&quot;: &quot;Run&quot;,
     &quot;Python.09_softmax回归的从零开始实现.executor&quot;: &quot;Run&quot;,
     &quot;Python.09_softmax回归的从零开始实现_修改.executor&quot;: &quot;Run&quot;,
     &quot;Python.09_图像分类数据集.executor&quot;: &quot;Run&quot;,
     &quot;Python.10_多层感知机从零开始实现.executor&quot;: &quot;Run&quot;,
     &quot;Python.13_dropout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16_basicofnn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19_cnn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20_padding&amp;stride.executor&quot;: &quot;Run&quot;,
+    &quot;Python.22-pooling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.23-LeNet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.23-note.executor&quot;: &quot;Run&quot;,
     &quot;Python.Kaggle_houseprise.executor&quot;: &quot;Run&quot;,
     &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.softmax_train.executor&quot;: &quot;Run&quot;,
     &quot;Python.线性回归.executor&quot;: &quot;Run&quot;,
     &quot;Python.线性回归的简洁实现.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/pycharm-code/dl_test_code&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/pycharm-code/测试/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.data_loader">
-    <configuration name="13_dropout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.23-note">
+    <configuration name="20_padding&amp;stride" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -63,7 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_dropout.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_padding&amp;stride.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Kaggle_houseprise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="22-pooling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kaggle_houseprise.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/22-pooling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_loader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="23-LeNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_loader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23-LeNet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="softmax_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="23-note" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +149,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softmax_train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23-note.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dl_test_code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../测试" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../测试/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,10 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Kaggle_houseprise" />
-        <item itemvalue="Python.13_dropout" />
-        <item itemvalue="Python.softmax_train" />
-        <item itemvalue="Python.data_loader" />
+        <item itemvalue="Python.23-note" />
+        <item itemvalue="Python.23-LeNet" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.22-pooling" />
+        <item itemvalue="Python.20_padding&amp;stride" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +238,71 @@
       <option name="project" value="LOCAL" />
       <updated>1763275790529</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="学习了16课中的第一课，新增了一个测试">
+      <option name="closed" value="true" />
+      <created>1764429839022</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764429839022</updated>
+    </task>
+    <task id="LOCAL-00006" summary="学完了16课">
+      <option name="closed" value="true" />
+      <created>1764827422838</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764827422838</updated>
+    </task>
+    <task id="LOCAL-00007" summary="学完了19课">
+      <option name="closed" value="true" />
+      <created>1764858361117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764858361117</updated>
+    </task>
+    <task id="LOCAL-00008" summary="学完了21课">
+      <option name="closed" value="true" />
+      <created>1765180248184</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765180248184</updated>
+    </task>
+    <task id="LOCAL-00009" summary="学完了20课">
+      <option name="closed" value="true" />
+      <created>1765180488086</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765180488086</updated>
+    </task>
+    <task id="LOCAL-00010" summary="测试md笔记">
+      <option name="closed" value="true" />
+      <created>1765180665966</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765180665966</updated>
+    </task>
+    <task id="LOCAL-00011" summary="22课池化结束">
+      <option name="closed" value="true" />
+      <created>1765260210222</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765260210222</updated>
+    </task>
+    <task id="LOCAL-00012" summary="23课LNet在两个数据集上的训练，note是在mnist数据上的">
+      <option name="closed" value="true" />
+      <created>1766207989040</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1766207989040</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +316,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -225,7 +332,15 @@
     <MESSAGE value="这是第一次使用git的测试脚本" />
     <MESSAGE value="尝试从pycharm中提交" />
     <MESSAGE value="尝试从pycharm中提交到main中" />
-    <option name="LAST_COMMIT_MESSAGE" value="尝试从pycharm中提交到main中" />
+    <MESSAGE value="学习了16课中的第一课，新增了一个测试" />
+    <MESSAGE value="学完了16课" />
+    <MESSAGE value="学完了19课" />
+    <MESSAGE value="学完了21课" />
+    <MESSAGE value="学完了20课" />
+    <MESSAGE value="测试md笔记" />
+    <MESSAGE value="22课池化结束" />
+    <MESSAGE value="23课LNet在两个数据集上的训练，note是在mnist数据上的" />
+    <option name="LAST_COMMIT_MESSAGE" value="23课LNet在两个数据集上的训练，note是在mnist数据上的" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

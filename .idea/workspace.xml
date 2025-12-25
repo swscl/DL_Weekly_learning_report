@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="23课LNet在两个数据集上的训练，note是在mnist数据上的">
-      <change afterPath="$PROJECT_DIR$/24-alexnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dl_test_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dl_test_code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="24了解流程，电脑跑不了">
+      <change afterPath="$PROJECT_DIR$/26-nin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,77 +39,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_softmax回归的从零开始实现.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_softmax回归的从零开始实现_修改.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_图像分类数据集.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10_多层感知机从零开始实现.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13_dropout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16_basicofnn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.19_cnn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20_padding&amp;stride.executor&quot;: &quot;Run&quot;,
-    &quot;Python.22-pooling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.23-LeNet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.23-note.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kaggle_houseprise.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.softmax_train.executor&quot;: &quot;Run&quot;,
-    &quot;Python.线性回归.executor&quot;: &quot;Run&quot;,
-    &quot;Python.线性回归的简洁实现.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/pycharm-code/测试/main.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.01.executor": "Run",
+    "Python.09_softmax回归的从零开始实现.executor": "Run",
+    "Python.09_softmax回归的从零开始实现_修改.executor": "Run",
+    "Python.09_图像分类数据集.executor": "Run",
+    "Python.10_多层感知机从零开始实现.executor": "Run",
+    "Python.13_dropout.executor": "Run",
+    "Python.16_basicofnn.executor": "Run",
+    "Python.19_cnn.executor": "Run",
+    "Python.20_padding&stride.executor": "Run",
+    "Python.22-pooling.executor": "Run",
+    "Python.23-LeNet.executor": "Run",
+    "Python.23-note.executor": "Run",
+    "Python.24-alexnet.executor": "Run",
+    "Python.26-nin.executor": "Run",
+    "Python.Kaggle_houseprise.executor": "Run",
+    "Python.data_loader.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.softmax_train.executor": "Run",
+    "Python.线性回归.executor": "Run",
+    "Python.线性回归的简洁实现.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/pycharm-code/测试/main.py",
+    "settings.editor.selected.configurable": "file.status.colors"
   }
-}</component>
-  <component name="RunManager" selected="Python.23-note">
-    <configuration name="20_padding&amp;stride" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dl_test_code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20_padding&amp;stride.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="22-pooling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dl_test_code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/22-pooling.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Python.26-nin">
     <configuration name="23-LeNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
       <option name="ENV_FILES" value="" />
@@ -158,6 +112,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="24-alexnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dl_test_code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24-alexnet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="26-nin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dl_test_code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26-nin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
       <option name="ENV_FILES" value="" />
@@ -182,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.26-nin" />
+        <item itemvalue="Python.24-alexnet" />
         <item itemvalue="Python.23-note" />
         <item itemvalue="Python.23-LeNet" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.22-pooling" />
-        <item itemvalue="Python.20_padding&amp;stride" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766207989040</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="24了解流程，电脑跑不了">
+      <option name="closed" value="true" />
+      <created>1766456919465</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766456919465</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,7 +346,8 @@
     <MESSAGE value="测试md笔记" />
     <MESSAGE value="22课池化结束" />
     <MESSAGE value="23课LNet在两个数据集上的训练，note是在mnist数据上的" />
-    <option name="LAST_COMMIT_MESSAGE" value="23课LNet在两个数据集上的训练，note是在mnist数据上的" />
+    <MESSAGE value="24了解流程，电脑跑不了" />
+    <option name="LAST_COMMIT_MESSAGE" value="24了解流程，电脑跑不了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

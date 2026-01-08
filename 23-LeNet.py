@@ -20,6 +20,7 @@ net = nn.Sequential(
     nn.Linear(120, 84), nn.Sigmoid(),
     nn.Linear(84, 10))
 
+
 #test
 x=torch.rand((1,1,28,28),dtype=torch.float32)
 for layer in net:

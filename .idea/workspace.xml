@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="24了解流程，电脑跑不了">
-      <change afterPath="$PROJECT_DIR$/26-nin.py" afterDir="false" />
+    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="29跑完了">
+      <change afterPath="$PROJECT_DIR$/29_resnet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,8 @@
     "Python.23-note.executor": "Run",
     "Python.24-alexnet.executor": "Run",
     "Python.26-nin.executor": "Run",
+    "Python.28_batchnorm.executor": "Run",
+    "Python.29_resnet.executor": "Run",
     "Python.Kaggle_houseprise.executor": "Run",
     "Python.data_loader.executor": "Run",
     "Python.main.executor": "Run",
@@ -67,29 +69,7 @@
     "settings.editor.selected.configurable": "file.status.colors"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.26-nin">
-    <configuration name="23-LeNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dl_test_code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23-LeNet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.29_resnet">
     <configuration name="23-note" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
       <option name="ENV_FILES" value="" />
@@ -156,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="28_batchnorm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,11 +145,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../测试" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../测试/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_batchnorm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="29_resnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dl_test_code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/29_resnet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.29_resnet" />
+        <item itemvalue="Python.28_batchnorm" />
         <item itemvalue="Python.26-nin" />
         <item itemvalue="Python.24-alexnet" />
         <item itemvalue="Python.23-note" />
-        <item itemvalue="Python.23-LeNet" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +310,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766456919465</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="23恢复了原来的lenet定义">
+      <option name="closed" value="true" />
+      <created>1767842077658</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1767842077658</updated>
+    </task>
+    <task id="LOCAL-00015" summary="29跑完了">
+      <option name="closed" value="true" />
+      <created>1767881912236</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1767881912236</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,7 +365,9 @@
     <MESSAGE value="22课池化结束" />
     <MESSAGE value="23课LNet在两个数据集上的训练，note是在mnist数据上的" />
     <MESSAGE value="24了解流程，电脑跑不了" />
-    <option name="LAST_COMMIT_MESSAGE" value="24了解流程，电脑跑不了" />
+    <MESSAGE value="23恢复了原来的lenet定义" />
+    <MESSAGE value="29跑完了" />
+    <option name="LAST_COMMIT_MESSAGE" value="29跑完了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

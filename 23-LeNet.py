@@ -10,24 +10,15 @@ class Reshape(torch.nn.Module):
     def forward(self,x):
         return x.view(-1,1,28,28)
 
-net =torch.nn.Sequential(
-    Reshape(),
-    nn.Conv2d(1,6,kernel_size=3,padding=1),
-    nn.ReLU(),
-    nn.MaxPool2d(2,2),
-
-    nn.Conv2d(6,16,kernel_size=3),
-    nn.ReLU(),
-    nn.MaxPool2d(2,2),
-
+net = nn.Sequential(
+    nn.Conv2d(1, 6, kernel_size=5, padding=2), nn.Sigmoid(),
+    nn.MaxPool2d(kernel_size=2, stride=2),
+    nn.Conv2d(6, 16, kernel_size=5), nn.Sigmoid(),
+    nn.MaxPool2d(kernel_size=2, stride=2),
     nn.Flatten(),
-
-    nn.Linear(16*6*6,120),#16个通道，图片大小6*6
-    nn.ReLU(),
-    nn.Linear(120,84),
-    nn.ReLU(),
-    nn.Linear(84,10)
-)
+    nn.Linear(16 * 5 * 5, 120), nn.Sigmoid(),
+    nn.Linear(120, 84), nn.Sigmoid(),
+    nn.Linear(84, 10))
 
 #test
 x=torch.rand((1,1,28,28),dtype=torch.float32)
@@ -46,22 +37,24 @@ test_data = torchvision.datasets.MNIST("./data", train=False, transform=torchvis
 train_iter = DataLoader(train_data, batch_size=256, shuffle=True)
 test_iter = DataLoader(test_data, batch_size=256, shuffle=True)
 
-def evaluate_accuracy_gpu(net, data_iter, device=None):
-    """使用GPU计算模型在数据集上的精度。"""
-    if isinstance(net, torch.nn.Module):
-        net.eval()
+def evaluate_accuracy_gpu(net, data_iter, device=None): #@save
+    """使用GPU计算模型在数据集上的精度"""
+    if isinstance(net, nn.Module):
+        net.eval()  # 设置为评估模式
         if not device:
             device = next(iter(net.parameters())).device
+    # 正确预测的数量，总预测的数量
     metric = d2l.Accumulator(2)
-    for X, y in data_iter:
-        if isinstance(X, list):
-            X = [x.to(device) for x in X]
-        else:
-            X = X.to(device)
-        y = y.to(device)
-        metric.add(d2l.accuracy(net(X), y), y.numel())
+    with torch.no_grad():
+        for X, y in data_iter:
+            if isinstance(X, list):
+                # BERT微调所需的（之后将介绍）
+                X = [x.to(device) for x in X]
+            else:
+                X = X.to(device)
+            y = y.to(device)
+            metric.add(d2l.accuracy(net(X), y), y.numel())
     return metric[0] / metric[1]
-
 
 
 def train_ch6(net, train_iter, test_iter, num_epochs, lr, device):

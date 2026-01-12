@@ -7,7 +7,9 @@ import torchvision
 from torch import nn
 from d2l import torch as d2l
 import torch.nn.functional as F  # 新增：BatchNorm计算需要
-
+import matplotlib.pyplot as plt
+plt.rcParams['font.sans-serif'] = ['SimHei']  # 黑体（Windows自带，必存在）
+plt.rcParams['axes.unicode_minus'] = False    # 解决负号显示方块问题
 def batch_norm(X, gamma, beta, moving_mean, moving_var, eps, momentum):
     # 通过is_grad_enabled来判断当前模式是训练模式还是预测模式
     if not torch.is_grad_enabled():

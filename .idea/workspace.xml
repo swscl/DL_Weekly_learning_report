@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="29跑完了">
-      <change afterPath="$PROJECT_DIR$/36_apply.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/36_image_augmentation.py" afterDir="false" />
+    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="数据增强和他的应用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/36_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/36_apply.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,38 +39,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.01.executor": "Run",
-    "Python.09_softmax回归的从零开始实现.executor": "Run",
-    "Python.09_softmax回归的从零开始实现_修改.executor": "Run",
-    "Python.09_图像分类数据集.executor": "Run",
-    "Python.10_多层感知机从零开始实现.executor": "Run",
-    "Python.13_dropout.executor": "Run",
-    "Python.16_basicofnn.executor": "Run",
-    "Python.19_cnn.executor": "Run",
-    "Python.20_padding&stride.executor": "Run",
-    "Python.22-pooling.executor": "Run",
-    "Python.23-LeNet.executor": "Run",
-    "Python.23-note.executor": "Run",
-    "Python.24-alexnet.executor": "Run",
-    "Python.26-nin.executor": "Run",
-    "Python.28_batchnorm.executor": "Run",
-    "Python.29_resnet.executor": "Run",
-    "Python.36_apply.executor": "Run",
-    "Python.36_image_augmentation.executor": "Run",
-    "Python.Kaggle_houseprise.executor": "Run",
-    "Python.data_loader.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.softmax_train.executor": "Run",
-    "Python.线性回归.executor": "Run",
-    "Python.线性回归的简洁实现.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/pycharm-code/测试/main.py",
-    "settings.editor.selected.configurable": "file.status.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_softmax回归的从零开始实现.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_softmax回归的从零开始实现_修改.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_图像分类数据集.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_多层感知机从零开始实现.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13_dropout.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16_basicofnn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19_cnn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20_padding&amp;stride.executor&quot;: &quot;Run&quot;,
+    &quot;Python.22-pooling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.23-LeNet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.23-note.executor&quot;: &quot;Run&quot;,
+    &quot;Python.24-alexnet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.26-nin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.28_batchnorm.executor&quot;: &quot;Run&quot;,
+    &quot;Python.29_resnet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.36_apply.executor&quot;: &quot;Run&quot;,
+    &quot;Python.36_image_augmentation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Kaggle_houseprise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.softmax_train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.线性回归.executor&quot;: &quot;Run&quot;,
+    &quot;Python.线性回归的简洁实现.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pycharm-code/测试/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.36_apply">
     <configuration name="26-nin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
@@ -337,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767886702331</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="数据增强和他的应用">
+      <option name="closed" value="true" />
+      <created>1768115759129</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1768115759129</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +385,8 @@
     <MESSAGE value="24了解流程，电脑跑不了" />
     <MESSAGE value="23恢复了原来的lenet定义" />
     <MESSAGE value="29跑完了" />
-    <option name="LAST_COMMIT_MESSAGE" value="29跑完了" />
+    <MESSAGE value="数据增强和他的应用" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据增强和他的应用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

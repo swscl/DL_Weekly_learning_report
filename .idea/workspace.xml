@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="数据增强和他的应用">
+    <list default="true" id="d8538ae5-de20-4b53-80eb-d0c1595dc79c" name="更改" comment="数据增强的应用">
+      <change afterPath="$PROJECT_DIR$/37_hotdog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/36_apply.py" beforeDir="false" afterPath="$PROJECT_DIR$/36_apply.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,61 +39,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_softmax回归的从零开始实现.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_softmax回归的从零开始实现_修改.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_图像分类数据集.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10_多层感知机从零开始实现.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13_dropout.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16_basicofnn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.19_cnn.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20_padding&amp;stride.executor&quot;: &quot;Run&quot;,
-    &quot;Python.22-pooling.executor&quot;: &quot;Run&quot;,
-    &quot;Python.23-LeNet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.23-note.executor&quot;: &quot;Run&quot;,
-    &quot;Python.24-alexnet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.26-nin.executor&quot;: &quot;Run&quot;,
-    &quot;Python.28_batchnorm.executor&quot;: &quot;Run&quot;,
-    &quot;Python.29_resnet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.36_apply.executor&quot;: &quot;Run&quot;,
-    &quot;Python.36_image_augmentation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kaggle_houseprise.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.softmax_train.executor&quot;: &quot;Run&quot;,
-    &quot;Python.线性回归.executor&quot;: &quot;Run&quot;,
-    &quot;Python.线性回归的简洁实现.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/pycharm-code/测试/main.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;file.status.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.01.executor": "Run",
+    "Python.09_softmax回归的从零开始实现.executor": "Run",
+    "Python.09_softmax回归的从零开始实现_修改.executor": "Run",
+    "Python.09_图像分类数据集.executor": "Run",
+    "Python.10_多层感知机从零开始实现.executor": "Run",
+    "Python.13_dropout.executor": "Run",
+    "Python.16_basicofnn.executor": "Run",
+    "Python.19_cnn.executor": "Run",
+    "Python.20_padding&stride.executor": "Run",
+    "Python.22-pooling.executor": "Run",
+    "Python.23-LeNet.executor": "Run",
+    "Python.23-note.executor": "Run",
+    "Python.24-alexnet.executor": "Run",
+    "Python.26-nin.executor": "Run",
+    "Python.28_batchnorm.executor": "Run",
+    "Python.29_resnet.executor": "Run",
+    "Python.36_apply.executor": "Run",
+    "Python.36_image_augmentation.executor": "Run",
+    "Python.37_hotdog.executor": "Run",
+    "Python.Kaggle_houseprise.executor": "Run",
+    "Python.data_loader.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.softmax_train.executor": "Run",
+    "Python.线性回归.executor": "Run",
+    "Python.线性回归的简洁实现.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/pycharm-code/测试/main.py",
+    "settings.editor.selected.configurable": "file.status.colors"
   }
-}</component>
-  <component name="RunManager" selected="Python.36_apply">
-    <configuration name="26-nin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dl_test_code" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26-nin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Python.37_hotdog">
     <configuration name="28_batchnorm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dl_test_code" />
       <option name="ENV_FILES" value="" />
@@ -182,13 +161,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="37_hotdog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dl_test_code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/37_hotdog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.37_hotdog" />
         <item itemvalue="Python.36_apply" />
         <item itemvalue="Python.36_image_augmentation" />
         <item itemvalue="Python.29_resnet" />
         <item itemvalue="Python.28_batchnorm" />
-        <item itemvalue="Python.26-nin" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768115759129</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="数据增强的应用">
+      <option name="closed" value="true" />
+      <created>1768208045924</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1768208045924</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,7 +395,8 @@
     <MESSAGE value="23恢复了原来的lenet定义" />
     <MESSAGE value="29跑完了" />
     <MESSAGE value="数据增强和他的应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据增强和他的应用" />
+    <MESSAGE value="数据增强的应用" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据增强的应用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
